@@ -15,7 +15,8 @@ nav {
 }
 
 main {
-    background-color: lightskyblue;
+    background-color: lightgrey;
+    margin: 20px;
 }
 
 footer {
