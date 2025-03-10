@@ -12,6 +12,19 @@ body {
 
 nav {
     background-color: lightgrey;
+    display: grid;  /* Ensures centering */
+    place-items: center; /* Centers content both horizontally and vertically */
+    text-align: center; /* Centers text */
+    grid-column: span 3;
+    padding: 20px; /* Adds spacing */
+}
+
+nav h1 {
+    margin-bottom: 0; /*This reduces the space below the h1 */
+}
+
+nav p {
+    margin-top: 0; /*This removes the extra space above the p */
 }
 
 main {
@@ -20,7 +33,8 @@ main {
 }
 
 footer {
-    background-color: rgb(137, 224, 237);
+    /* background-color: rgb(137, 224, 237); */
+    background-color: white;
 }
 
 nav, main, footer {
@@ -29,3 +43,15 @@ nav, main, footer {
 nav, footer {
     grid-column: span 3;
 }
+
+#main {
+    place-items: center; /* Centers content both horizontally and vertically */
+    text-align: center; /* Centers text */
+}
+
+/* I can't figure out yet how to center the main title, subtitle, feature1&2
+and start now on the page. I also haven't figured out yet how to create a circle.
+And I also haven't figured out how to get Transparent Pricing closer together to
+the "If you don't try this app..." part... And regarding the rest of the objects
+on Figma wirefram, I'm really confused as to how to start them. The one I did is
+the easiest for me to figure out so far, and it has taken me about 10 hours to do. */
